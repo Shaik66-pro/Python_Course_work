@@ -1,0 +1,10 @@
+class Sameer():
+    def display(self):
+        self.s = "This Is Sameer"
+        print(self.s)
+a = Sameer()
+a.display()
+b = Sameer()
+b.display()
+print(a.s)
+print(b.s)
